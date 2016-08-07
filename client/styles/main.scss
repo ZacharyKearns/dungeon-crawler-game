@@ -1,0 +1,119 @@
+$planet1-wall: #104E8B;
+$planet2-wall: #8B0000;
+$planet3-wall: #7D9EC0;
+$planet-wall-border: #1E1E1E;
+$planet-room: #B7B7B7;
+$planet-room-border: #EAEAEA;
+$zerg: #8E388E;
+$health-pack: #00CD00;
+$weapon: #00EEEE;
+$hyperion: #8B5A00;
+$kerrigan: #FF0000;
+$fog: #1E1E1E;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+ box-sizing: border-box;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+ font-size: 0px;
+ cursor: default;
+ font-family: 'Open Sans', sans-serif;
+ background: #fff;
+}
+
+span {
+  display: inline-block;
+}
+
+.grid-container {
+ margin: 10px 0px 0px 10px;
+ width: 816px;
+}
+
+.ui {
+  font-size: 30px;
+  position: absolute;
+  top: 40px;
+  left: 840px;
+  width: 400px;
+}
+
+.links {
+  font-size: 15px;
+  margin: 5px;
+}
+
+.legend {
+  font-size: 15px;
+  margin: 5px;
+}
+
+.tile {
+ height: 15px;
+ width: 15px;
+}
+
+.fog {
+  background: $fog;
+  border: 1px solid $fog;
+}
+
+.planet1-wall {
+  background: $planet1-wall;
+  border: 1px solid $planet-wall-border;
+}
+
+.planet2-wall {
+  background: $planet2-wall;
+  border: 1px solid $planet-wall-border;
+}
+
+.planet3-wall {
+  background: $planet3-wall;
+  border: 1px solid $planet-wall-border;
+}
+
+.planet-room {
+  background: $planet-room;
+  border: 1px solid $planet-room-border;
+}
+
+.planet-corridor {
+  background: $planet-room;
+  border: 1px solid $planet-room-border;
+}
+
+.raynor {
+  background: #000;
+  border: 1px solid $planet-room-border;
+}
+
+.zerg {
+  background: $zerg;
+  border: 1px solid $planet-room-border;
+}
+
+.health-pack {
+  background: $health-pack;
+  border: 1px solid $planet-room-border;
+}
+
+.weapon {
+  background: $weapon;
+  border: 1px solid $planet-room-border;
+}
+
+.hyperion {
+  background: $hyperion;
+  border: 1px solid $planet-room-border;
+}
+
+.kerrigan {
+  background: $kerrigan;
+  border: 1px solid $planet-room-border;
+}
